@@ -1,4 +1,3 @@
-
 # JPEG - MPEG
 
 In this folder you will find some scripts that do some stuff with images and FFmpeg let's get started! See an IMPORTANT information in the end of the document.
