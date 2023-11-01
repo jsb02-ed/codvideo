@@ -31,4 +31,9 @@ The fifth script encodes and decodes a byte sequence using run legth encoding. Y
 #### 6_dct_encoder_decoder.py
 The last numbered script encodes and decodes a random 32x32 matrix using DCT and later checks whether the decoded version is the same as the original.
 
+## About `test.jpg`
+The test image was taken in September 2021 in Balaguer (Lleida), when I organized a hybrid live concert together with my band and a lot of friends.
+
+Although the streaming was not perfect, it was a great experience and we learnt a lot. If you are interested, you can find the live recording in https://www.youtube.com/watch?v=FVhKLR_j4Go. We promise we have improved a lot since then!
+
 #### That's it for today. Now just have fun testing these scripts!
