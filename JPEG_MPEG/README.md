@@ -1,6 +1,6 @@
 # JPEG - MPEG
 
-In this folder you will find some scripts that do some stuff with images and FFmpeg let's get started! See an IMPORTANT information in the end of the document.
+In this folder you will find some scripts that do some stuff with images and FFmpeg. Let's get started!
 
 ## Before you start...
 You must set your own FFmpeg installation location before you run any script that calls FFmpeg. You will find a variable called `ffmpeg` at the beggining of each script needing this change.
