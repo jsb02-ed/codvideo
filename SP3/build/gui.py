@@ -29,7 +29,7 @@ def select_video_1():
     global video_1_ok
     filename_v1 = filedialog.askopenfilename(
         title="Select video",
-        filetypes=(("mp4 files", "*.mp4"), ("all files", "*.*"))
+        filetypes=(("mp4 files", "*.mp4"), ("mkv files", "*.mkv"), ("all files", "*.*"))
     )
     print("Selected File:", filename_v1)
     video_1_ok = True
@@ -59,7 +59,7 @@ def run_video_comparison():
 
 
 window = Tk()
-window.title("Title of the window")
+window.title("Video Comparer")
 
 window.geometry("902x515")
 window.configure(bg = "#FFFFFF")

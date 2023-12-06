@@ -1,0 +1,11 @@
+The steps followed to run a docker with FFmpeg are the following:
+
+1. Find an existing docker image with FFmpeg installed
+2. Clone it from github
+    git clone https://github.com/linuxserver/docker-ffmpeg
+3. Go to the correct directory
+    cd docker-ffmpeg
+4. Build the docker (this takes a lot of time to complete, next time I may import a built docker from Docker Hub)
+    docker build -t docker-ffmpeg .
+5. Run FFmpeg in the docker
+    docker run opencoconut/ffmpeg -i codvideo/SP3/BBB_cut_9_sec.mp4 -ss 1 -t 5 -c copy codvideo/SP3/BBB_cut_5_sec.mp4
