@@ -1,6 +1,6 @@
 # SP3 - Final exercises
 
-In this folder you will find some scripts that do different stuff with video, python, FFmpeg and Docker. Everything will be explained later.
+In this folder you will find some scripts that do different stuff with video, python, FFmpeg and Docker. Everything is explained in the document.
 
 ## Before you start...
 You must set your own FFmpeg installation location before you run any script that calls FFmpeg. You will find a variable called `ffmpeg_install` in `video_converter.py`.
